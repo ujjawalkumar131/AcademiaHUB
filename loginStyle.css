@@ -19,14 +19,14 @@ body {
     font-weight: bold;
     text-align: center; /* Center text horizontally */
     margin: 5px auto 20px; /* More space from the top */
-    color: #e3d6d6; /* Adjust text color as needed */
+    color: #d0cde0; /* Adjust text color as needed */
     transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
 }
 
 /* Add hover effect for the title */
 .form-title:hover {
     transform: scale(1.1); /* Slightly enlarge the text */
-    color: #ffffff; /* Change text color on hover */
+    color: #9c3535; /* Change text color on hover */
 }
 
 .logo {
