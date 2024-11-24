@@ -1,10 +1,10 @@
-# LEARNIVERSE: Learn Beyond Limits 
+# AcacdemiaHUB: Learn Beyond Limits 
 
 LEARNIVERSE is an responsive online learning platform where anyone can unlock limitless learning anytime, anywhere at zero cost. It offers a variety of courses designed to enhance your professional skills and personal growth. The user-friendly interface ensures a seamless learning experience. LEARNIVERSE was developed with the vision of making quality education accessible to everyone, regardless of geographical boundaries.
 
-![LEARNIVERSE](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
+![ACADEMIAHUB](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
 
-Check out the Live Website from here: https://hi-aman-jain.github.io/LEARNIVERSE-E-Learning-Website/
+Check out the Live Website from here: 
 
 ## Sections involves:
 
@@ -31,7 +31,7 @@ To install and run the LEARNIVERSE project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/Hi-Aman-Jain/LEARNIVERSE-E-Learning-Website.git
+   git clone 
    ```
 
 2. **Navigate to the project directory**:
@@ -58,7 +58,7 @@ If you need any help with the project, you can:
 
 - **Visit Contact section** on the website to get in touch with support.
 - **Create an issue** on the GitHub repository.
-- **Email me** at hi.jainaman@gmail.com.
+- **Email me** at ujjawalraj131@gmail.com.
 
 ---
 
