@@ -2,8 +2,9 @@
 <html>
 <head>
 	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
-	<title>Computer Science Courses on LEARNIVERSE</title>
+	<title>Computer Science Courses on AcademiaHUB</title>
 	<link rel="stylesheet" type="text/css" href="subjects.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
 	<script type="text/javascript" src="../script.js"></script>
 </head>
 <body>
@@ -12,15 +13,15 @@
 	<header>
 		<div class="nav" id="nav">
 			<div id="LEARNIVERSE-logo">
-			<a href="../index.html"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
+			<a href="../home.html"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
 			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
 			<ul id="list-switch">
-				<li><a href="jee.html"><img src="../images/courses/d1.png" class="icon">JEE</a></li>
-				<li><a href="gate.html"><img src="../images/courses/paper.png" class="icon">GATE</a></li>
+	<!--	<li><a href="jee.html"><img src="../images/courses/d1.png" class="icon">JEE</a></li>
+				<li><a href="gate.html"><img src="../images/courses/paper.png" class="icon">GATE</a></li> -->	
 				<li><a href="#"><img src="../images/courses/computer.png" class="icon">Computer Courses</a></li>
 				<li><a href="#data"><img src="../images/courses/data.png" class="icon">Data Structures</a></li>
 				<li><a href="#algo"><img src="../images/courses/algo.png" class="icon">Algorithm</a></li>
-				<li><a href="#projects"><img src="../images/courses/projects.png" class="icon">Projects</a></li>
+				
 			</ul>
 			<div class="search" id="search-switch">
 				<input type="search" placeholder="Search" class="srch"><button id="srchbtn"><img src="../images/icon/search.png"></button>
@@ -31,41 +32,44 @@
 
 <!-- MAIN Heading of Page -->
 	<div class="title">
-		<span>Computer Science Courses<br>on LEARNIVERSE</span>
+		<span>Computer Science Courses<br>on AcademiaHUB</span>
 		<div class="shortdesc">
 			<p>Learn programming languages and concepts to prepare for a career in<br>hardware or software development</p>
 		</div>
 	</div>
 
 
+	
+	
+	  <!-- Module Cards (Dynamic Section) -->
+	  <div id="modules" class="modules"></div>
+	
+	  <!-- Video Section (Dynamic Section) -->
+	  <div id="videos" class="videos"></div>
+	
+	  <script src="script.js"></script>
+
+
 <!-- Some KeyWords related to Topic -->
 	<div class="course">
 		<div class="cbox">
-		<div class="det"><a href="#java">Java</a></div>
-		<div class="det"><a href="https://developer.android.com/">Android Development</a></div>
-		<div class="det"><a href="https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm">FXML</a></div>
-		<div class="det"><a href="#c++">C++</a></div>
-		<div class="det"><a href="https://www.geeksforgeeks.org/introduction-of-compiler-design/">Compiler Designing</a></div>
-		<div class="det"><a href="https://www.coursera.org/specializations/game-design-and-development">Game Development</a></div>
-		<div class="det"><a href="#algo">Algorithm</a></div>
+
+			
+
+			<div class="det"><a href="#sem1">Semester 1</a></div>
+			<div class="det"><a href="#sem2">Semester 2</a></div>
+			<div class="det"><a href="#sem3">Semester 3</a></div>
+			
+	
 		</div>
 		<div class="cbox">
-		<div class="det"><a href="#python">Python</a></div>
-		<div class="det"><a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a></div>
-		<div class="det"><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a></div>
-		<div class="det"><a href="https://en.wikipedia.org/wiki/Network">Networking</a></div>
-		<div class="det"><a href="https://www.kaspersky.co.in/resource-center/definitions/what-is-cyber-security">Cyber Security</a></div>
-		<div class="det"><a href="https://www.eccouncil.org/ethical-hacking/">Ethical Hacking</a></div>
-		<div class="det"><a href="#data">Data Structures</a></div>
+			<div class="det"><a href="#sem4">Semester 4</a></div>
+			<div class="det"><a href="#sem5">Semester 5</a></div>
+			<div class="det"><a href="#sem6">Semester 6</a></div>
 		</div>
 		<div class="cbox">
-		<div class="det"><a href="#html_css">HTML and CSS</a></div>
-		<div class="det"><a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044">Full Stack Web Development</a></div>
-		<div class="det"><a href="https://uxplanet.org/what-is-ui-vs-ux-design-and-the-difference-d9113f6612de?gi=6d9d13f4cc95">UI Designing</a></div>
-		<div class="det"><a href="https://www.adobe.com/in/products/xd.html">Adobe XD</a></div>
-		<div class="det"><a href="https://www.sciencedirect.com/topics/computer-science/hardware-design">Hardware Designing</a></div>
-		<div class="det"><a href="#javascript">JavaScript</a></div>
-		<div class="det"><a href="#html_css">Bootstrap</a></div>
+			<div class="det"><a href="#sem7">Semester 7</a></div>
+			<div class="det"><a href="#sem8">Semester 8</a></div>
 		</div>
 	</div>
 
@@ -79,22 +83,22 @@
 	<center>
 		<div class="ccardbox">
 			<div class="dcard">
-				<div class="fpart"><img src="../images/courses/java-course.jpg"></div>
-				<a href="#java"><div class="spart">2 Courses <img src="../images/icon/dropdown.png"></div></a>
+				<div class="fpart"><img src="../images/courses/oopsss.jpg"></div>
+				<a href="#sem3"><div class="spart">5 Courses <img src="../images/icon/dropdown.png"></div></a>
 			</div>
 			<div class="dcard">
-				<div class="fpart"><img src="../images/courses/python-course.png"></div>
-				<a href="#python"><div class="spart">5 Courses <img src="../images/icon/dropdown.png"></div></a>
+				<div class="fpart"><img src="../images/courses/pps.jpg"></div>
+				<a href="#sem2"><div class="spart">5 Courses <img src="../images/icon/dropdown.png"></div></a>
 			</div>
 			<div class="dcard">
-				<div class="fpart"><img src="../images/courses/c-course.jpg"></div>
-				<a href="#c++"><div class="spart">3 Courses <img src="../images/icon/dropdown.png"></div></a>
+				<div class="fpart"><img src="../images/courses/dsaa.jpg"></div>
+				<a href="#sem3"><div class="spart">5 Courses <img src="../images/icon/dropdown.png"></div></a>
 			</div>
 		</div>
 		<div class="ccardbox">
 			<div class="dcard">
-				<div class="fpart"><img src="../images/courses/web-course.jpg"></div>
-				<a href="#html_css"><div class="spart">6 Courses <img src="../images/icon/dropdown.png"></div></a>
+				<div class="fpart"><img src="../images/courses/cd.jpg"></div>
+				<a href="#sem6"><div class="spart">5 Courses <img src="../images/icon/dropdown.png"></div></a>
 			</div>
 			<div class="dcard">
 				<div class="fpart"><img src="../images/courses/data-course.jpg"></div>
@@ -110,186 +114,996 @@
 
 
 <!-- Videos on JAVA Lectures -->
-	<div class="title2" id="java">
-		<span>Start Programming with Java</span>
+	<div class="title2" id="sem1">
+		<span>Start your Journey with Semester 1</span>
 		<div class="shortdesc2">
-			<p>Practice and Practice to become a good Java programmer</p>
+			<p>Focus on ECE concepts, practice Math-I regularly, manage time well, and seek help for a strong start in engineering.</p>
 		</div>
+	</div>
+
+	<div>
+		<br> <br>
 	</div>
 	
 	<center>
 		<div class="ccardbox2">
-			<div class="dcard2"><span class="tag" >1/8</span>
+			<div class="dcard2">
+				<span class="tag">1/5</span>
 				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/IsLyduxZ9sc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<img src="../images/courses/bece.png" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLgwJf8NK-2e76qHT4VOu9uTw8wj0i4blS" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >2/8</span>
+			
+			<div class="dcard2">
+				<span class="tag">2/5</span>
 				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/U_vuESBFEpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<img src="../images/courses/bme.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLgwJf8NK-2e7Fe4vAYDaL0bpseGNhc9on" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >3/8</span>
+			
+			<div class="dcard2">
+				<span class="tag">3/5</span>
 				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/7i8vbPA37y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<img src="../images/courses/chem.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLm_MSClsnwm9p_yaZ8zIW1LxkK7_n98gD" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >4/8</span>
+			
+			
+			
+			<div class="dcard2">
+				<span class="tag">4/5</span>
 				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/FB47F-QIk3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<img src="../images/courses/coms.jpg" alt="Course Image">
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">Coming soon</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >5/8</span>
+			<div class="dcard2">
+				<span class="tag">5/5</span>
 				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/8qyVcHJ1Et4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<img src="../images/courses/coms.jpg" alt="Course Image">
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">Coming soon</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >6/8</span>
-				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/N53Vf8HGd-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="dcard2"><span class="tag" >7/8</span>
-				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/slz2Vc904Qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="dcard2"><span class="tag" >8/8</span>
-				<div class="fpart2">
-					<img src="../images/courses/java-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Q0NVRQP1Z5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
+			
 		</div>
 	</center>
 	<br><br>
-	<div class="click-me">
-		<a href="https://www.youtube.com/watch?v=IsLyduxZ9sc&list=PLX9Zi6XTqOKQ7TdRz0QynGIKuMV9Q2H8E" target="_blank">Click Here to Watch full playlist</a>
-	</div>
 
-<!-- Videos on C++ Lectures -->
 
-	<div class="title2" id="c++">
-		<span>Start Programming with C++</span>
+	<div class="title2" id="sem2">
+		<span>Let's move  towards  Semester 2</span>
 		<div class="shortdesc2">
-			<p>Practice and Practice to become a good C++ programmer</p>
+			<p>In semester 2, prioritize PPS and BEE  for scoring, while maintaining regular practice in Math-II for a strong conceptual foundation.</p>
 		</div>
 	</div>
+
+	<div>
+		<br> <br>
+	</div>
+	
 	<center>
 		<div class="ccardbox2">
-			<div class="dcard2"><span class="tag" >1/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="dcard2">
+				<span class="tag">1/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/math.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLU6SqdYcYsfKqa52m3wyMZb1KVWuZsA2T" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >2/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/52dHKRD7cdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<div class="dcard2">
+				<span class="tag">2/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/bee.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >3/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<div class="dcard2">
+				<span class="tag">3/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/pps.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PL-JvKqQx2AtdDyHzdsB1EzZuGCZN-3ucI" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >4/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			
+			
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/coms.jpg" alt="Course Image">
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">Coming soon</span>
+						</div>
+					</a>
 				</div>
 			</div>
-		
-			<div class="dcard2"><span class="tag" >5/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/coms.jpg" alt="Course Image">
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">Coming soon</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >6/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="dcard2"><span class="tag" >7/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="dcard2"><span class="tag" >8/8</span>
-				<div class="fpart2"><img src="../images/courses/c-course.jpg">
-					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
+			
 		</div>
 	</center>
-<br><br>
-	<div class="click-me">
-		<a href="https://www.youtube.com/watch?v=Iuo9PpGE04Y&feature=youtu.be" target="_blank">Click Here to Watch full playlist</a>
-	</div>
+	<br><br>
+	
 
-<!-- Videos on PYTHON Lectures -->
-
-	<div class="title2" id="python">
-		<span>Start Programming with Python</span>
+	<div class="title2" id="sem3">
+		<span>Let's move  towards  Semester 3</span>
 		<div class="shortdesc2">
-			<p>Practice and Practice to become a good Python programmer</p>
+			<p>In semester 3, dedicate extra time to COA  as it’s challenging, focus on Data Structures for scoring and placement preparation, and prioritize DSD  and OOPS  due to their high credit weightage.</p>
 		</div>
 	</div>
+
+	<div>
+		<br> <br>
+	</div>
+	
 	<center>
 		<div class="ccardbox2">
-			<div class="dcard2"><span class="tag" >1/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="dcard2">
+				<span class="tag">1/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dsdm1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AzdcvwBrhfVh-hbk8SP-Jvy" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >2/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<div class="dcard2">
+				<span class="tag">2/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dsdm2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwjmCrHBHjluXCzZWkDc18x" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >3/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<div class="dcard2">
+				<span class="tag">3/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dsdm3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyCzXTx-xFXq6F1F80iehyz" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >4/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			
+			
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dsdm4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxSaPqnfqe4HWLiZWwr-060" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-		
-			<div class="dcard2"><span class="tag" >5/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dsdm5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Aw6v8hILh-7_GYwc4CGmgdu" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >6/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<div class="dcard2">
+				<span class="tag">1/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dm1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwZeAEepwNqQkuyC5k8GEYp" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >7/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="dcard2">
+				<span class="tag">2/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dm2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLV8vIYTIdSnZjLhFRkVBsjQr5NxIiq1b3" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="dcard2"><span class="tag" >8/8</span>
-				<div class="fpart2"><img src="../images/courses/python-course.png">
-					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="dcard2">
+				<span class="tag">3/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dm3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxtDT8aziUWCh7w_2ab291M" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
 				</div>
 			</div>
+
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dm4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Axg2um5o9O6_lT8Jrf5Mkfg" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dm5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Ay9znY37fPIK6bx_pCgLAgd" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="dcard2">
+				<span class="tag">DSA</span>
+				<div class="fpart2">
+					<img src="../images/courses/dsaa.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PL-JvKqQx2AtcnX8uPrdjvCplAmwTSFhMO" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">OOPS</span>
+				<div class="fpart2">
+					<img src="../images/courses/oopsss.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLbGui_ZYuhij8Oplrvjt_RlDliZQgdxoV" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			
 		</div>
 	</center>
+	<br><br>
 
-<br><br>
-	<div class="click-me">
-		<a href="https://youtu.be/QXeEoD0pB3E" target="_blank">Click Here to Watch full playlist</a>
+
+	<div class="title2" id="sem4">
+		<span>Let's move  towards  Semester 4</span>
+		<div class="shortdesc2">
+			<p>In semester 4, aim to score high in NM  as it’s an easy paper, study DBMS and OS thoroughly as they are crucial for interviews, and focus on DAA  to boost your GPA.</p>
+		</div>
 	</div>
+
+	<div>
+		<br> <br>
+	</div>
+	
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2">
+				<span class="tag">NM mod 1</span>
+				<div class="fpart2">
+					<img src="../images/courses/nm1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyRnBZJjO_EdWaJcdoh69ev" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="dcard2">
+				<span class="tag">NM mod 2</span>
+				<div class="fpart2">
+					<img src="../images/courses/nm2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AzZtnP17BVBpV7aCkV8YIUd" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="dcard2">
+				<span class="tag">NM mod 3</span>
+				<div class="fpart2">
+					<img src="../images/courses/nm3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxQAF21UY3sYlk8OERXkCEt" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			
+			
+			<div class="dcard2">
+				<span class="tag">NM mod 4</span>
+				<div class="fpart2">
+					<img src="../images/courses/nm4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyPJFFUZ4VByYv8n14pMDOe" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">NM mod 5</span>
+				<div class="fpart2">
+					<img src="../images/courses/nm5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AycvDw7ncaVxDsMhsfRd3Hy" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DB</span>
+				<div class="fpart2">
+					<img src="../images/courses/dbms1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwT5KzJNFngT1jx9IYctRwq" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DB</span>
+				<div class="fpart2">
+					<img src="../images/courses/dbms2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxZzvhP823BmzgvhwLhnqpu" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DB</span>
+				<div class="fpart2">
+					<img src="../images/courses/dbms3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxHMsH4TY6FHApjdtihfSyG" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DB</span>
+				<div class="fpart2">
+					<img src="../images/courses/dbms4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Aw50qEkmw3mZZNGYTL34k9O" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DB</span>
+				<div class="fpart2">
+					<img src="../images/courses/dbms5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Axv0OLrQ5lGg9xK9zX0q3he" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="dcard2">
+				<span class="tag">OS mod 1</span>
+				<div class="fpart2">
+					<img src="../images/courses/os1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AzSA3QUXzSHt-AkqoAvU7ro" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">OS mod 2</span>
+				<div class="fpart2">
+					<img src="../images/courses/os2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyqFK7xy2G_eSRT2uKbSm0K" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">OS mod 3</span>
+				<div class="fpart2">
+					<img src="../images/courses/os3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AybbqJ6DBLl1Zv21wvfzk9j" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">OS mod 4</span>
+				<div class="fpart2">
+					<img src="../images/courses/os4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AzCPaQYln4AqO3EZsdtN3U2" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">1/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/daa1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AzcVYaq6jIWqLsJ6kW891hI" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">2/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/daa2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyWwlw0IJPVamVAcgr9OXod" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">3/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/daa3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Awlz_yQlupH8K05IZ02pnvs" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/daa4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Az6lw_ojSqd-RWDdxbiZy5Z" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/daa5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AzK3xZqFtdfqoFAhKO2TWIC" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			
+		</div>
+	</center>
+	<br><br>
+
+
+	<div class="title2" id="sem5">
+		<span>Let's move  towards  Semester 5</span>
+		<div class="shortdesc2">
+			<p>In semester 5, focus on DCCN  for placements, dedicate extra effort to understand FLAT  as it’s challenging, and aim to score high in DMCT  to  boost your GPA. </p>
+		</div>
+	</div>
+
+	<div>
+		<br> <br>
+	</div>
+	
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2">
+				<span class="tag">CN</span>
+				<div class="fpart2">
+					<img src="../images/courses/dccnm1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwZ5H3PtlY6BcHYwilgkBXd" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="dcard2">
+				<span class="tag">CN</span>
+				<div class="fpart2">
+					<img src="../images/courses/dccnm2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwqXrQ2P8WczzA5v38mE4Qp" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="dcard2">
+				<span class="tag">CN</span>
+				<div class="fpart2">
+					<img src="../images/courses/dccnm3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyBRQdiN7jnfIwlO-OIpuTe" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">CN</span>
+				<div class="fpart2">
+					<img src="../images/courses/dccnm4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwHHu6GSYneZLOtFRZ18k_I" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">1/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/flat1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxVm06VdE8ItSihNq5vvpoN" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+
+			<div class="dcard2">
+				<span class="tag">2/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/flat2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwseLxg2SOWIeiaSeS2b0aa" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			
+			
+			<div class="dcard2">
+				<span class="tag">3/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/flat3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AzLeGzWNA9bvm6aJSwlAXJN" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/flat4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Aw40I5x_lvR7oEUMI8BH0zS" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/flat5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Ay5IZVhjZkOPOXgZ7_bGsPr" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">1/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dmct1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyF0vheh3uHvUnkIhofkaOB" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">2/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dmct2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Awo-nwS4NAHhxCS5VaDNhv8" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">3/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dmct3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwwQG23Ecjs4sZkBZotAiaS" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dmct4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Ay040TJmsffZ-MYYHJvXnOe" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dmct5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxeNhOr-lgND_GsQFP1ZtwP" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			
+		</div>
+	</center>
+	<br><br>
+
+	<div class="title2" id="sem6">
+		<span>Let's move  towards  Semester 6</span>
+		<div class="shortdesc2">
+			<p>In semester 6, CD  is a tough subject, so allocate extra time to understand its concepts, while AI/ML  is crucial for both academics and projects, especially if you're working on a machine learning-based project.</p>
+		</div>
+	</div>
+
+	<div>
+		<br> <br>
+	</div>
+	
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2">
+				<span class="tag">CD</span>
+				<div class="fpart2">
+					<img src="../images/courses/cd.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PL1QH9gyQXfguPNDTsnG90W2kBDQpYLDQr" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			
+
+			<div class="dcard2">
+				<span class="tag">1/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/aiml1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwDeyX5-EkfqKWfQ8LbYN-M" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">2/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/aiml2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AykJtNm0lgqge2N9N7fOygk" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">3/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/aiml3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyTF1mllik56-UBPEheebhS" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/aiml4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AwpoVHaYAHoz7FYfPGX2Zzr" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/aiml5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyC3y2Rae_qbkOSbCBRdNY0" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			
+			
+			
+		</div>
+	</center>
+	<br><br>
+
+
+	<div class="title2" id="sem7">
+		<span>Let's move  towards  Semester 7</span>
+		<div class="shortdesc2">
+			<p>In semester 7, DL is an important subject, so focus on understanding its concepts thoroughly as it plays a key role in both academics and future technology trends.</p>
+		</div>
+	</div>
+
+	<div>
+		<br> <br>
+	</div>
+	
+	<center>
+		<div class="ccardbox2">
+			
+			<div class="dcard2">
+				<span class="tag">DL mod 1</span>
+				<div class="fpart2">
+					<img src="../images/courses/dl1.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxVoU9V1UdqmFQU83qTiJrr" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DL mod 2</span>
+				<div class="fpart2">
+					<img src="../images/courses/dl2.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AyC01NQmi6WmHgcSnJahE3B" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+
+
+			<div class="dcard2">
+				<span class="tag">DL mod 3</span>
+				<div class="fpart2">
+					<img src="../images/courses/dl3.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxAb_EP7DxNEUNpCf2NJfH_" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DL mod 4</span>
+				<div class="fpart2">
+					<img src="../images/courses/dl4.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2Ax6_ew-M9EjW-Itm4pb15Wy" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="dcard2">
+				<span class="tag">DL mod 5</span>
+				<div class="fpart2">
+					<img src="../images/courses/dl5.jpg" alt="Course Image">
+					<a href="https://www.youtube.com/playlist?list=PLklNVYP4w2AxhdvFEDmvDPZLZk7icNRuX" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">View Playlist</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			<div class="dcard2">
+				<span class="tag">4/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/coms.jpg" alt="Course Image">
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">Coming soon</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="dcard2">
+				<span class="tag">5/5</span>
+				<div class="fpart2">
+					<img src="../images/courses/coms.jpg" alt="Course Image">
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<div class="hover-overlay">
+							<span class="playlist-text">Coming soon</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+		</div>
+	</center>
+	<br><br>
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+
+
+	<div class="title2" id="sem8">
+		<span>Let's End Journey with Semster 8</span>
+		<div class="shortdesc2">
+			<p>Enjoy Nothing is required to study for semester 8 !! 
+				Hopefully You must be placed till now ........ <br> so
+				prioritize your final project as it’s crucial for your academic performance and will be showcased to your professors, so dedicate ample time and effort to make it impactful.
+			</p>
+		</div>
+	</div>
+
+	<br> <br>
+	
+	<center>
+	
+		
+	</center>
+	<br><br>
+	
+
 <!-- Videos on DATA STRUCTURES Lectures -->
 
 	<div class="title2" id="data">
@@ -523,50 +1337,7 @@
 	</div>
 
 <!-- PROJECTS -->
-	<div class="title2" id="projects">
-		<span>Browse Projects</span>
-		<div class="shortdesc2">
-			<p>Here you can find various Projects related to Web Deveopment, AI, Java Projects, etc</p>
-		</div>
-	</div>
-	<div class="project-panel">
-		<div class="project-card">
-			<img src="../images/projects/p1.jpg">
-			<div class="info">
-				<h4>Digi Library</h4><p>Interactive Library Management Software made using JAVA & MySQL</p>
-				<div class="download"><a href="https://github.com/aman9419" target="_blank">Download</a></div>	
-			</div>
-		</div>
-		<div class="project-card">
-			<img src="../images/projects/p2.jpg">
-			<div class="info">
-				<h4>LEARNIVERSE</h4><p>It is an Educational Website made using HTML, CSS & JavaScript</p>
-				<div class="download"><a href="https://github.com/aman9419" target="_blank">Download</a></div>
-			</div>
-		</div>
-		<div class="project-card">
-			<img src="../images/projects/p3.jpg">
-			<div class="info">
-				<h4>Photo Gallery</h4><p>This Website helps you to manage your Personal Photos developed using HTML, CSS & JavaScript</p>
-				<div class="download"><a href="https://github.com/aman9419" target="_blank">Download</a></div>
-			</div>
-		</div>
-		<div class="project-card">
-			<img src="../images/projects/p4.jpg">
-			<div class="info">
-				<h4>Sports Fitness</h4><p>This Website helps you in your favorite Sports made using HTML, CSS & JavaScript</p>
-				<div class="download"><a href="https://github.com/aman9419" target="_blank">Download</a></div>
-			</div>
-		</div>
-		<div class="project-card">
-			<img src="../images/projects/p5.jpg">
-			<div class="info">
-				<h4>Smart TMS</h4><p>This Software helps you to managen the records of Challans used in Traffic Management System made using C++</p>
-				<div class="download"><a href="https://github.com/aman9419/smart_traffic" target="_blank">Download</a></div>
-			</div>
-		</div>
-
-	</div>
+	
 
 <br><br><br><br><br>
 
@@ -574,7 +1345,7 @@
 <footer>
 	<div class="footer-container">
 		<div class="left-col">
-			<img src="../images/icon/logo - Copy.png" style="width: 200px;">
+			<img src="../images/icon/logo.png" style="width: 200px;">
 			<div class="logo"></div>
 			<div class="social-media">
 				<a href="#"><img src="../images/icon\fb.png"></a>
@@ -583,9 +1354,9 @@
 				<a href="#"><img src="../images/icon\ytube.png"></a>
 				<a href="#"><img src="../images/icon\linkedin.png"></a>
 			</div><br><br>
-			<p class="rights-text">Copyright © 2024 Created By Aman Jain, Saransh Jain, Saurabh Kumar, Saroj Kumar, Bipin Kumar All Rights Reserved.</p>
-			<br><p><img src="../images/icon/location.png"> Jaipur Engineering College And Research Center<br>Sitapura, Jaipur 302022</p><br>
-			<p><img src="../images/icon/phone.png"> +91-9828-474-653<br><img src="../images/icon/mail.png">&nbsp; learniverseofficial@gmail.com</p>
+			<p class="rights-text">Copyright © 2024 Created By Ujjawal & Aryan  All Rights Reserved.</p>
+			<br><img src="../images/icon/location.png"> Birla Institute of Technology , Mesra <br>Ranchi</p><br>
+			<p><img src="../images/icon/phone.png"> +91-9304497613 <br><img src="../images/icon/mail.png">&nbsp; ujjawalraj131@gmail.com </p>
 		</div>
 		<div class="right-col">
 			<h1 style="color: #fff">Our Newsletter</h1>

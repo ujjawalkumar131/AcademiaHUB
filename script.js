@@ -8,6 +8,13 @@
 // 	document.getElementById("myBar").style.width = scrolled + "%";
 // }
 
+
+
+
+
+
+
+
 function scrollAppear() {
   var introText = document.querySelector(".side-text");
   var sideImage = document.querySelector(".sideImage");
